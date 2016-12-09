@@ -91,9 +91,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "OpenSDK1.7.5", "OpenSDK1.7.5/*.*"
-  # s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "OpenSDK1.7.5/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "OpenSDK1.7.5/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
